@@ -80,6 +80,9 @@ var buttonsArray = Array.prototype.slice.call(buttons)
 
 buttonsArray.forEach(function(button, indexButton){
   button.addEventListener('click', function(e){
+    buttons.forEach(function(knopka){
+      knopka.classList.remove('active');
+    })
     if(e.target == button){
      e.target.classList.toggle('active');
       console.log(e.target)
@@ -121,7 +124,4 @@ var btnToTop=document.getElementById("toTop");
       window.scrollTo({top:0,behavior:"smooth"})
   }
 
-
-  //////SCROLL DOWN FUNCTIONS///////////
-//////////////////////////////////
 

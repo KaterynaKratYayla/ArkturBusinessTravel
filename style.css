@@ -186,9 +186,9 @@ body{
     flex-direction: row;
     justify-content: space-around;
     margin-top: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .button{
@@ -201,6 +201,7 @@ body{
     padding: 10px;
     font-family: 'Calibri';    
     min-width: 80px;
+    /* max-width: 250px; */
    }
 
 .button img{
@@ -226,9 +227,9 @@ body{
 
 .textBlock{
     display: none;
-    width: 700px;
+    width: 600px;
     /* height: 400px; */
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Calibri';
     color: rgb(54, 54, 56);
     border-radius: 10px;
@@ -244,7 +245,7 @@ body{
 
 .span{
     font-weight: bold;
-}
+  }
 
 .textBlock a{
     text-decoration-color:none;
@@ -253,8 +254,29 @@ body{
 
 .textBlock a:hover{
     cursor: pointer;
-    color:rgb(48, 48, 114);
+    color:rgb(45, 45, 153);
     text-decoration: underline;
+}
+
+#HUK{
+  background:rgb(190, 189, 189);
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .2);
+    border: none;
+    border-radius: 6px;
+    /* color: white; */
+}
+
+#HUK:hover{
+  background:rgb(48, 48, 114);
+  box-shadow: none;
+}
+
+#HUK span{
+  color: rgb(3, 3, 58); 
+}
+
+#HUK span:hover{
+  color: white;
 }
 
 .footer{
